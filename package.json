@@ -1,0 +1,24 @@
+{
+  "name": "@holesail/invite",
+  "version": "1.0.0",
+  "description": "Generate and parse Holesail invites",
+  "license": "AGPL-3.0",
+  "author": "supersuryaansh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "prettier . --check && node test.js",
+    "format": "prettier . --write"
+  },
+  "dependencies": {
+    "b4a": "^1.8.0",
+    "hypercore-crypto": "^3.6.1",
+    "sodium-universal": "^5.0.1",
+    "z32": "^1.1.0"
+  },
+  "devDependencies": {
+    "brittle": "^4.0.0",
+    "prettier": "^3.8.3",
+    "prettier-config-holepunch": "^2.0.0"
+  }
+}
