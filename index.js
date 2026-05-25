@@ -1,7 +1,7 @@
 const hcrypto = require('hypercore-crypto')
 const b4a = require('b4a')
 const sodium = require('sodium-universal')
-const z32 = require('z32') // make sure you have this
+const z32 = require('z32')
 
 function generate(seed) {
   if (!seed) {
