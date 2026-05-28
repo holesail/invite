@@ -73,4 +73,9 @@ function parse(invite) {
   }
 }
 
-module.exports = { generate, parse }
+function randomBytes() {
+  const seed = hcrypto.randomBytes(32)
+  return b4a.toString(seed, 'hex')
+}
+
+module.exports = { generate, parse, randomBytes }
