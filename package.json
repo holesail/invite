@@ -1,6 +1,6 @@
 {
   "name": "@holesail/invite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generate and parse Holesail invites",
   "license": "AGPL-3.0",
   "author": "supersuryaansh",
